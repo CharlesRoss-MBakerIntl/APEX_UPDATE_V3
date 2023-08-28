@@ -63,7 +63,6 @@ def approved_projects():
     # Pull the Survey Data
     survey = survey_data(survey_url, 0, token)
 
-
     # Pull Updated and Approved Data that have not been Flagged as Prcoessed
     updated = survey[survey['Weekly_Update_Status'] == 'Updated']
     updated_approved = updated[updated['Approved_for_release'] == 'Approved']

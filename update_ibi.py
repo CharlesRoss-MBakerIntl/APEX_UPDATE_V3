@@ -175,7 +175,7 @@ def alaska_511_transfer_timed():
         payload = [{'attributes': attributes}]
 
 
-        # Send Payload to Update Approved Project Table
+        # Send Payload to Update Management Table
         update_approved(management_url, 0, token, payload)
 
 

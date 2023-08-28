@@ -55,7 +55,7 @@ def project_closed(entry):
     header = "Project Signaled to be Closed"
 
     message = f"""
-            <p>An emergency attention indicator has been flagged in a survey submission for</p> 
+            <p>An project has been flagged as "Closed" within the DOT APEX Survey</p> 
 
             <p>Project Name:  {emer_dict['Project Name']}</p>
 
