@@ -151,11 +151,9 @@ def approved_data(approved_url, layer, token):
 
 ############## PULL APPROVED ATTRIBUTE FEATURES ####################
 
-def pull_features(token):
+def pull_features(service_url, token):
     
-    approved_url = 'https://services.arcgis.com/r4A0V7UzH9fcLVvv/arcgis/rest/services/APEX_Manager_Approved_Projects/FeatureServer'
-    
-    url = f"{approved_url}/0/query"
+    url = f"{service_url}/0/query"
 
     params = {
         'f':'json',

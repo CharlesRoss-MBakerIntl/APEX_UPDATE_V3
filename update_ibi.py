@@ -30,9 +30,11 @@ from pull_start_end import pull_start_end
 
 anchorage_timezone = pytz.timezone('America/Anchorage')
 
-USERNAME = os.environ['USERNAME']
-PASSWORD = os.environ['PASSWORD']
+# USERNAME = os.environ['USERNAME']
+# PASSWORD = os.environ['PASSWORD']
 
+USERNAME = "AKDOT_COMMUNICATIONS"
+PASSWORD = "Skisnowbird1"
 
 
 ############################ SET URL LINKS AND GENERATE TOKEN #############################
@@ -122,7 +124,7 @@ def alaska_511_transfer_timed():
             'Event_type',
             'Event_subtype',
             'Datetime_Start',
-            'Date_End',
+            'Date_end',
             'Activity_Day',
             'Activity_Start',
             'Activity_End',

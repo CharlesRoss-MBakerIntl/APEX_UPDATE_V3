@@ -20,8 +20,11 @@ from agol_table_pull import end_points_data
 from agol_update import update_status
 from agol_update import update_points
 
-USERNAME = os.environ['USERNAME']
-PASSWORD = os.environ['PASSWORD']
+# USERNAME = os.environ['USERNAME']
+# PASSWORD = os.environ['PASSWORD']
+
+USERNAME = "AKDOT_COMMUNICATIONS"
+PASSWORD = "Skisnowbird1"
 
 
 
